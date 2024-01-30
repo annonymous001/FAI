@@ -29,8 +29,8 @@ def get_limit(model_name):
 
 
 def get_reply(model_name, instruction, temp):
-    org = "org-kYdcq9bXwugVV7bZKpIzbMr7"
-    api_key = "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"
+    org = ""
+    api_key = ""
     openai.organization = org
     openai.api_key = api_key
 
